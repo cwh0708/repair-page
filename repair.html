@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>古来手机维修中心</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #0d6efd;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .btn {
+      background-color: #28a745;
+      color: white;
+      padding: 12px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+    .service-box {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      flex: 1 1 250px;
+      text-align: center;
+    }
+    .service-box img {
+      width: 50px;
+      height: 50px;
+    }
+    .reviews {
+      background: #eef2f5;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .review {
+      margin-bottom: 15px;
+      font-style: italic;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      padding: 20px;
+      text-align: center;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    form button {
+      background: #0d6efd;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>古来手机维修中心</h1>
+  <p>快速 · 便宜 · 有保障</p>
+  <a href="https://wa.me/60123456789" class="btn">点击联系我们 (WhatsApp)</a>
+</header>
+
+<section>
+  <h2>我们的服务</h2>
+  <div class="services">
+    <div class="service-box">
+      <img src="https://img.icons8.com/ios-filled/50/smartphone.png" alt="换屏幕">
+      <h3>更换手机屏幕</h3>
+      <p>高品质屏幕，30分钟完成</p>
+    </div>
+    <div class="service-box">
+      <img src="https://img.icons8.com/ios-filled/50/battery.png" alt="换电池">
+      <h3>更换电池</h3>
+      <p>原厂电池，一年保修</p>
+    </div>
+    <div class="service-box">
+      <img src="https://img.icons8.com/ios-filled/50/water.png" alt="进水修复">
+      <h3>进水清洗</h3>
+      <p>快速除湿，恢复功能</p>
+    </div>
+    <div class="service-box">
+      <img src="https://img.icons8.com/ios-filled/50/settings.png" alt="系统修复">
+      <h3>软件系统修复</h3>
+      <p>卡顿、死机、刷机处理</p>
+    </div>
+  </div>
+</section>
+
+<section class="reviews">
+  <h2>客户评价</h2>
+  <div class="review">“老板超快，半小时就搞定，手机跟新的一样！” — 阿伟</div>
+  <div class="review">“我妈妈的iPhone差点报废，还好送来这边救回来了。” — 小美</div>
+  <div class="review">“便宜、快、服务好，会介绍朋友来。” — Ah Chong</div>
+</section>
+
+<section>
+  <h2>联络我们</h2>
+  <form>
+    <label>您的名字：</label>
+    <input type="text" placeholder="请输入姓名">
+    <label>电话号码：</label>
+    <input type="text" placeholder="请输入电话号码">
+    <label>想维修什么？</label>
+    <textarea placeholder="例如：iPhone换屏幕、电池鼓起"></textarea>
+    <button type="submit">提交</button>
+  </form>
+</section>
+
+<footer>
+  <p>📍 地址：古来 Taman Putri · 📞 电话：012-3456789 · <a href="#" style="color:#fff;">Facebook</a></p>
+</footer>
+
+</body>
+</html>
